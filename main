@@ -1,0 +1,50 @@
+// const ACCOUNT_NUMBER = "260022003.081241.26000.400.01";
+const NATURAL_ACCOUNT = "10212";
+const ANALYSIS = "260022003";
+const BUDGET_HOLDER = "081241";
+const COST_CENTRE = "26000";
+const FUND_SOURCE = "400";
+const ENTITY = "01";
+const DEPT_REF_1 = "D2";
+
+// Natural Account
+let naturalAccountList = document.querySelectorAll('[id^="N28:KffSEGMENT1:"]');
+for (let i = 0; i < naturalAccountList.length; i++) {
+    naturalAccountList[i].value = NATURAL_ACCOUNT;
+};
+
+// Analysis
+let analysisList = document.querySelectorAll('[id^="N28:KffSEGMENT2:"]');
+for (let i = 0; i < analysisList.length; i++) {
+    analysisList[i].value = ANALYSIS;
+};
+
+// Budget Holder
+let budgetHolderList = document.querySelectorAll('[id^="N28:KffSEGMENT3:"]');
+for (let i = 0; i < budgetHolderList.length; i++) {
+    budgetHolderList[i].value = BUDGET_HOLDER;
+};
+
+// Cost Centre
+let costCentreList = document.querySelectorAll('[id^="N28:KffSEGMENT4:"]');
+for (let i = 0; i < costCentreList.length; i++) {
+    costCentreList[i].value = COST_CENTRE;
+};
+
+// Fund Source
+let fundSourceList = document.querySelectorAll('[id^="N28:KffSEGMENT5:"]');
+for (let i = 0; i < fundSourceList.length; i++) {
+    fundSourceList[i].value = FUND_SOURCE;
+};
+
+// Entity
+// let entityList = document.querySelectorAll('[id^="N28:KffSEGMENT6:"]');
+// for (let i = 0; i < entityList.length; i++) {
+//     entityList[i].value = ENTITY;
+// };
+
+// Dept Ref #1
+let deptRefList = document.querySelectorAll('[id^="N28:DeptRef1:"]');
+for (let i = 0; i < deptRefList.length; i++) {
+    deptRefList[i].value = DEPT_REF_1;
+};
